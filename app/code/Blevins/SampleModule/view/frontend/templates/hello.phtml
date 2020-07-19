@@ -1,0 +1,6 @@
+<?php
+/** @var \Blevins\SampleModule\Block\Hello $block */
+?>
+<?php foreach ($block->getItems() as $item): ?>
+  <p><?php $item->getName(); ?>: <?php $item->getDescription(); ?></p> 
+<?php endforeach; ?>
